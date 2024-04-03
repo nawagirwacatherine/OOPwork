@@ -18,7 +18,7 @@ class Penguin extends Bird {
 }
 
 var baldEagle = new Eagle();
-var KingPenguin = new penguin();
+var KingPenguin = new Penguin();
 
 baldEagle.useWings();
 KingPenguin.useWings();
