@@ -1,12 +1,10 @@
-var toDo =["todo1", "todo2"];
-if (toDo == toDo[0]){
-  console.log("wash dishes")
-}
 
-else if (toDo == toDo[1]){
-    console.log("buy groceries");
-}
+var toDo = ["todo1", "todo2"];
 
-else {
-    console.log("click button");
+if (toDo[0] === "todo1") {
+  console.log("wash dishes");
+} else if (toDo[1] === "todo2") {
+  console.log("buy groceries");
+} else {
+  console.log("click button");
 }
