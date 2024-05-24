@@ -58,6 +58,11 @@ class Train{
     train5.lightsStatus();
     highSpeed1.togglelights();
 
+    var train6 = new Train('purple',true);
+    train6.togglelights;
+    train6.lightsStatus;
+    train6.getSelf;
+
 
 
 
